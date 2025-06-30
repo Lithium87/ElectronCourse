@@ -1,0 +1,16 @@
+{
+    "appId": "com.v-vandeva.electron-course",
+    "productName": "Electron Course",
+    "files": ["dist-electron", "dist-react"],
+    "icon": "./desktopIcon.png",
+    "mac": {
+        "target": "dmg"
+    },
+    "linux": {
+        "target": "AppImage",
+        "category": "Utility"
+    },
+    "win": {
+        "target": ["portable", "msi"]
+    }
+}

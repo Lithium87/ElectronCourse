@@ -1,11 +1,10 @@
 {
-  "extends": "../../tsconfig.json",
+  "extends": "../tsconfig.json",
   "compilerOptions": {
     "module": "NodeNext",
-    "moduleResolution": "NodeNext",
     "target": "ESNext",
     "types": ["node", "electron"],
-    "outDir": "../../dist-electron"
+    "outDir": "../../dist/electron"
   },
   "include": ["main.ts"],
   "skipLibCheck": true,

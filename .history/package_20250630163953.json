@@ -8,10 +8,8 @@
     "dev:react": "vite",
     "dev:electron": "npm run build && electron .",
     "build": "tsc -b && vite build",
+    "build-electron": "npx tsc -p src/electron/tsconfig.electron.json",
     "transpile:electron": "tsc --project src/electron/tsconfig.electron.json",
-    "dist:mac": "npm run transpile:electron && npm run build && electron-builder --mac --arm64",
-    "dist:win": "npm run transpile:electron && npm run build && electron-builder --win --x64",
-    "dist:linux": "npm run transpile:electron && npm run build && electron-builder --linux --x64",
     "lint": "eslint .",
     "preview": "vite preview"
   },

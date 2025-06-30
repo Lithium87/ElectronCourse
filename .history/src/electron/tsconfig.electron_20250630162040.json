@@ -2,7 +2,6 @@
   "extends": "../../tsconfig.json",
   "compilerOptions": {
     "module": "NodeNext",
-    "moduleResolution": "NodeNext",
     "target": "ESNext",
     "types": ["node", "electron"],
     "outDir": "../../dist-electron"
